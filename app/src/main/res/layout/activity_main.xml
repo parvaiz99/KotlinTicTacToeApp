@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/PaleVioletRed"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bu1"
+            android:backgroundTint="@color/white"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_margin="4dp"
+            android:onClick="bClick"
+            />
+
+        <Button
+            android:id="@+id/bu2"
+            android:backgroundTint="@color/white"
+            android:layout_margin="4dp"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="bClick"
+           />
+
+        <Button
+            android:id="@+id/bu3"
+            android:backgroundTint="@color/white"
+            android:layout_margin="4dp"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="bClick"
+            />
+    </TableRow>
+
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/bu4"
+            android:backgroundTint="@color/white"
+            android:layout_margin="4dp"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="bClick"
+             />
+
+        <Button
+            android:id="@+id/bu5"
+            android:backgroundTint="@color/white"
+            android:layout_margin="4dp"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="bClick"
+            />
+
+        <Button
+            android:id="@+id/bu6"
+            android:backgroundTint="@color/white"
+            android:layout_margin="4dp"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="bClick"
+           />
+    </TableRow>
+
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/bu7"
+            android:backgroundTint="@color/white"
+            android:layout_margin="4dp"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="bClick"
+             />
+
+        <Button
+            android:id="@+id/bu8"
+            android:backgroundTint="@color/white"
+            android:layout_margin="4dp"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="bClick"
+             />
+
+        <Button
+            android:id="@+id/bu9"
+            android:backgroundTint="@color/white"
+            android:layout_margin="4dp"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:onClick="bClick"
+          />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="40dp">
+
+            <Button
+                android:id="@+id/res"
+                android:layout_width="wrap_content"
+                android:layout_height="40pt"
+                android:textSize="20sp"
+                android:textColor="@color/Red"
+                android:text="Reset"
+                android:backgroundTint="@color/DarkBlue"
+                />
+
+    </TableRow>
+
+</TableLayout>
